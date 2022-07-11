@@ -95,6 +95,8 @@ body{
     grid-row: span 2;
 
 }*/
+
+
 /*-----------------Grid Contenedor---------------------------------------*/
 .gridContenedor{
     display: grid;
@@ -317,4 +319,21 @@ h1{
         width: 85%;
     }
 
+}
+
+/*----------------------------Animaciones---------------------------------------*/
+/*header img{
+    transition: 2s;
+}
+header img:hover{
+    transform: rotate(360deg);
+}*/
+
+.animacionLogo:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+.animacionFooter:hover{
+    transition: 2s;
+    transform: rotateY(360deg);
 }
