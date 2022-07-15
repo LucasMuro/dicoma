@@ -2,114 +2,184 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/baaac1f0d1.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=PT+Mono&family=Patua+One&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/baaac1f0d1.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fredoka:wght@300;400;500;600&family=PT+Mono&family=Patua+One&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Home</title>
 </head>
 
 <body>
-    <div class="gridContenedor">
-        <header class="encabezado headerFlex">
-            <img class="encabezado__logo animacionLogo" src="./imagenes/logmen.png" alt="logo barra navegacion">
-        </header>
-        <nav class="barraNavegacion">
-            <ul class="navFlex">
-                <li class="barraNavegacion__item"><a class="barraNavegacion__item__a" href="#">Home</a></li>
-                <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                        href="./secciones/contacto.html">Contacto</a></li>
-                <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                        href="./secciones/alfombras.html">Alfombras</a></li>
-                <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                        href="./secciones/citroen.html">Citroen</a></li>
-                <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                        href="./secciones/peugeot.html">Peugeot</a></li>
-            </ul>
-        </nav>
-        <main>
-            <div class="imgMain">
-                <h1 class="animate__animated animate__flip">TODOS LOS REPUESTOS ORIGINALES PARA TU CITROEN Y PEUGEOT
-                </h1>
-                <img src="./imagenes/fondo-header.jpg" alt="fondo de main">
-            </div>
-            <div class="gridGaleria">
-                <div class="grid-item-1 wide" alt="repuestos1">
-                </div>
-                <div class="grid-item-2 tall" alt="repuestos2">
-                </div>
-                <div class="grid-item-3" alt="repuestos3">
-                </div>
-                <div class="grid-item-4" alt="repuestos4">   
-                </div>
-                <div class="grid-item-5 wide" alt="repuestos5">
-                </div>
-                <div class="grid-item-6" alt="repuestos6">
-                </div>
-                <div class="grid-item-7 tall" alt="repuestos7">
-                </div>
-                <div class="grid-item-8 tall" alt="repuestos8">
-                </div>
-                <div class="grid-item-9" alt="repuestos9">
-                </div>
-                <div class="grid-item-10 wide" alt="repuestos10">
-                </div>
-            </div>
-            <section class="tamañoNosotros">
-                <h2>Sobre Nosotros</h2>
-                <p>
-                    Somos una empresa fundada en 1969, REPUESTOS PEUGEOT Y CITROEN en Rosario/ Sta. Fe/ Argentina. Desde
-                    los
-                    queridos 2cv hasta los últimos modelos de las marcas Francesas! Repuestos originales al mejor precio
-                    y
-                    tambien productos alternativos de calidad. ENVIOS A TODO EL PAIS
-                </p>
-            </section>
-        </main>
-        <footer class="footer">
-            <img class="footer__logo animacionFooter" src="./imagenes/logmen.png" alt="logo footer">
-            <div class="footer__contacto">
-                <p>
-                    <strong>Dirección:</strong> Riobamba 942, S2000ELT Rosario, Santa Fe
-                </p>
-                <p>
-                    <strong>Telefono:</strong> 0341 482-4092
-                </p>
-            </div>
-            <ul class="footer__lista">
-                <li class="footer__item ">
-                    <a class="footer__item__a" href="https://www.facebook.com/" target="_blank">
-                        <i class="fa-brands fa-facebook-square fa-3x">
-
-                        </i>
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__item__a" href="https://www.instagram.com/" target="_blank">
-                        <i class="fa-brands fa-instagram-square fa-3x">
-
-                        </i>
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__item__a" href="https://www.whatsapp.com/" target="_blank">
-                        <i class="fa-brands fa-whatsapp-square fa-3x">
-
-                        </i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./imagenes/logmen.png" alt="logo barra"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/citroen.html">Citroen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/peugeot.html">Peugeot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/alfombras.html">Alfombras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <main>
+
+    <div class="imgMain">
+      <h1>TODOS LOS REPUESTOS ORIGINALES PARA TU CITROEN Y PEUGEOT</h1>
+      <img src="./imagenes/fondo-header.jpg" alt="fondo de main">
+    </div>
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+            aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+            aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+            aria-label="Slide 10"></button>
+
+        </div>
+        <div class="carousel-inner row-cols-lg-4">
+          <div class="carousel-item active">
+            <img src="./imagenes/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/8.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/9.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/10.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <section class="tamañoNosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Somos una empresa fundada en 1969, REPUESTOS PEUGEOT Y CITROEN en Rosario/ Sta. Fe/ Argentina. Desde
+        los
+        queridos 2cv hasta los últimos modelos de las marcas Francesas! Repuestos originales al mejor precio
+        y
+        tambien productos alternativos de calidad. ENVIOS A TODO EL PAIS
+      </p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="footer__logo animacionFooter" src="./imagenes/logmen.png" alt="logo footer">
+      </div>
+      <div class="footer__contacto col-lg-6">
+        <p>
+          <strong>Dirección:</strong> Riobamba 942, S2000ELT Rosario, Santa Fe
+        </p>
+        <p>
+          <strong>Telefono:</strong> 0341 482-4092
+        </p>
+      </div>
+      <div class="col-lg-3">
+        <ul class="footer__lista">
+          <li class="footer__item ">
+            <a class="footer__item__a" href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook-square fa-3x">
+
+              </i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__item__a" href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram-square fa-3x">
+
+              </i>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__item__a" href="https://www.whatsapp.com/" target="_blank">
+              <i class="fa-brands fa-whatsapp-square fa-3x">
+
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
