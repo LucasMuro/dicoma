@@ -77,15 +77,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-/*.wide{
-    grid-column: span 2;
-
-}
-
-.tall{
-    grid-row: span 2;
-
-}*/
 
 /*------------------nav------------------------------*/
 
@@ -121,7 +112,9 @@ h1{
     background-color: #FFFFFE;
 }
 .imgMain img{
-   width: 50%;
+   
+   height: 100%;
+   width: 100%;
 }
 
 .tamañoNosotros{
@@ -131,13 +124,13 @@ h1{
 }
 
 /*-------------------------------------Carrusel contenedor--------------------------------*/
- .carousel-item{
+.carousel-item{
     background-color: #161a1d;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 .carousel-item img{
-    height: 400px;
+    height: 500px;
     object-fit: contain;
 }
 
@@ -263,4 +256,21 @@ h1{
         width: 85%;
     }
 
+}
+/*----------------------Animaciones-----------------------------------------------------------------*/
+.animacionLogo:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+.animacionFooter:hover{
+    transition: 2s;
+    transform: rotateY(360deg);
+}
+
+
+.contenedorCards{
+    background-color: #161a1d;
+}
+.contenedorTitulo{
+    margin-bottom: 24px;
 }
