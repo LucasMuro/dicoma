@@ -1,0 +1,71 @@
+@media screen and (max-width:768px){
+    .encabezado__logo{
+        width: 90%;
+        
+    }
+    
+    .navFlex{
+        width: auto;
+        
+    }
+    .barraNavegacion__item{
+        padding: 0 10px;
+        list-style: none;
+        font-size: 16px;
+       
+    }
+    .barraNavegacion__item{
+        width: 40%;
+       
+    }
+    .imgMain{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFE;
+    }
+    .imgMain img{
+        width: 100%;
+     }
+
+     .wiframeForm{
+        display: flex;
+        flex-direction: column;
+     }
+
+}
+
+@media screen and (max-width:480px){
+    .encabezado__logo{
+        
+        padding: 5px;
+        
+       }
+    .navFlex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .barraNavegacion__item{
+        width: 50%;
+       
+    }
+    .imgMain H1{
+        font-size: 20px;
+    }
+    .tamañoNosotros{
+        width: 100%;
+        font-size: 15px;
+    }
+    .footer__contacto{
+        text-align: center;
+        font-size:15px;
+    }
+    .footer__item{
+        width: 30px;
+    }
+    .mapaWiframe{
+        width: 85%;
+    }
+
+}

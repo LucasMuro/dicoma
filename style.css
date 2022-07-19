@@ -7,76 +7,6 @@ body{
     font-family: 'Bree Serif', serif;
     background-color: #d3d3d3;
 }
-/*---------------------------Grid Galeria-------------------------------------------------*/
-.gridGaleria{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    grid-auto-rows: minmax(200px, auto);
-    gap: 10px;
-    padding: 10px;
-    grid-auto-flow: dense;
-}
-
-.grid-item-1{
-    background-image: url(./imagenes/1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-2{
-    background-image: url(./imagenes/2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-3{
-    background-image: url(./imagenes/3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-4{
-    background-image: url(./imagenes/4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-5{
-    background-image: url(./imagenes/5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-6{
-    background-image: url(./imagenes/6.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-7{
-    background-image: url(./imagenes/7.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-8{
-    background-image: url(./imagenes/8.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-9{
-    background-image: url(./imagenes/9.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-item-10{
-    background-image: url(./imagenes/10.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 /*------------------nav------------------------------*/
 
@@ -104,9 +34,6 @@ h1{
 }
 
 /*------------------MAIN--------------------------------------------------*/
-.alineacionTitulo{
-    /* margin: 16px; */
-}
 .imgMain{
     display: flex;
     background-color: #FFFFFE;
@@ -124,7 +51,7 @@ h1{
 }
 
 /*-------------------------------------Carrusel contenedor--------------------------------*/
-.carousel-item{
+/* .carousel-item{
     background-color: #161a1d;
     height: 500px;
     width: 100%;
@@ -132,7 +59,7 @@ h1{
 .carousel-item img{
     height: 500px;
     object-fit: contain;
-}
+} */
 
 /*-----------------------------Footer------------------------------*/
 
@@ -271,7 +198,5 @@ h1{
 .contenedorCards{
     background-color: #161a1d;
 }
-.contenedorTitulo{
-    /* margin-bottom: 24px; */
-}
+
 
