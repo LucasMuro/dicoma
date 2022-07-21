@@ -9,30 +9,25 @@ body {
 
 .footer {
   background-color: #660708; }
-
-.footer__logo {
-  width: 70%;
-  margin: 16px; }
-
-.footer__lista {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end; }
-
-.footer__item {
-  list-style: none;
-  margin: 16px; }
-
-.footer__item__a {
-  color: white;
-  text-decoration: none; }
-
-.footer__contacto {
-  display: flex;
-  flex-direction: column;
-  color: #f5f3f4; }
+  .footer__logo {
+    width: 70%;
+    margin: 16px; }
+  .footer__lista {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end; }
+  .footer__item {
+    list-style: none;
+    margin: 16px; }
+    .footer__item__a {
+      color: white;
+      text-decoration: none; }
+  .footer__contacto {
+    display: flex;
+    flex-direction: column;
+    color: #f5f3f4; }
 
 .animacionLogo:hover {
   transition: 2s;
@@ -88,15 +83,12 @@ body {
     width: 85%; } }
 
 .formWire {
-  gap: 50px; }
+  gap: 50px;
+  justify-content: center; }
 
 .botonForm {
   color: white;
   background-color: #161a1d; }
-
-.mapaWiframe {
-  padding: 10px;
-  border: solid 2px white; }
 
 .imgMain {
   display: flex;
