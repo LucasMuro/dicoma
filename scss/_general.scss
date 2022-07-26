@@ -5,5 +5,5 @@
 
 body{
     font-family: 'Bree Serif', serif;
-    background-color: #d3d3d3;
+    background-color: map-get($colores, "color-secundario" );
 }

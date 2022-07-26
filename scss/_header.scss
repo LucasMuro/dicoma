@@ -3,10 +3,10 @@ h1{
     font-size: 3em;
     font-family: 'Patua One', cursive; 
     margin: 16px;
-    color: #660708;
+    color: map-get($colores , "color-terciario" );
  }
  .navbar{
-     background-color:#161a1d;
+     background-color: map-get($colores , "color-principal" );
  }
  .nav-link{
      color: white;

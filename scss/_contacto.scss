@@ -3,6 +3,5 @@
     justify-content: center;
 }
 .botonForm{
-    color: white;
-    background-color: #161a1d;
+    @include boton(#161A1D,#D3D3D3)
 }

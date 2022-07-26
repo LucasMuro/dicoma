@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Bree Serif', serif;
-  background-color: #d3d3d3; }
+  background-color: #D3D3D3; }
 
 .footer {
   background-color: #660708; }
@@ -27,7 +27,7 @@ body {
   .footer__contacto {
     display: flex;
     flex-direction: column;
-    color: #f5f3f4; }
+    color: #D3D3D3; }
 
 .animacionLogo:hover {
   transition: 2s;
@@ -38,7 +38,7 @@ body {
   transform: rotateY(360deg); }
 
 .contenedorCards {
-  background-color: #161a1d; }
+  background-color: #161A1D; }
 
 @media screen and (max-width: 768px) {
   .encabezado__logo {
@@ -87,8 +87,11 @@ body {
   justify-content: center; }
 
 .botonForm {
-  color: white;
-  background-color: #161a1d; }
+  width: fit-content;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #161A1D;
+  color: #D3D3D3; }
 
 .imgMain {
   display: flex;
@@ -100,7 +103,7 @@ body {
 
 .tamañoNosotros {
   color: #f5f3f4;
-  background-color: #161a1d;
+  background-color: #161A1D;
   max-width: fit-content; }
 
 h1 {
@@ -111,7 +114,7 @@ h1 {
   color: #660708; }
 
 .navbar {
-  background-color: #161a1d; }
+  background-color: #161A1D; }
 
 .nav-link {
   color: white;

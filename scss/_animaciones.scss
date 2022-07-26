@@ -14,5 +14,5 @@
 
 
 .contenedorCards{
-    background-color: #161a1d;
+    background-color: map-get($colores , "color-principal" );
 }

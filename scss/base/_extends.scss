@@ -1,0 +1,7 @@
+@mixin boton ($btncolor,$txtcolor){
+    width: fit-content;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: $btncolor;
+    color: $txtcolor;
+}
