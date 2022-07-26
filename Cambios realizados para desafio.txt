@@ -1,0 +1,32 @@
+Cambios realizados:
+
+INDEX:
+*Agregue keywords(repuestos, dicoma, citroen, alfombras,originales)
+*Agregue description (Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
+  Alfombras originales para todas las carcas y modelos de automovil)
+*Modifique titulo (dicoma repuestos)
+
+CONTACTO:
+*Agregue keywords(repuestos, dicoma, citroen, alfombras,contacto)
+*Agregue description (Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
+  Alfombras originales para todas las carcas y modelos de automovil)
+*Modifique titulo (dicoma contacto)
+
+CITROEN:
+*Agregue keywords(repuestos, dicoma, citroen, alfombras,originales)
+*Agregue description (Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
+  Alfombras originales para todas las carcas y modelos de automovil)
+*Modifique titulo (dicoma citroen)
+
+
+ALFOMBRAS:
+*Agregue keywords(repuestos, dicoma, citroen, alfombras,originales)
+*Agregue description (Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
+  Alfombras originales para todas las carcas y modelos de automovil)
+*Modifique titulo (dicoma alfombras)
+
+PEUGEOT:
+*Agregue keywords(repuestos, dicoma, citroen, alfombras,originales)
+*Agregue description (Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
+  Alfombras originales para todas las carcas y modelos de automovil)
+*Modifique titulo (dicoma peugeot)
