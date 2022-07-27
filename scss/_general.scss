@@ -4,6 +4,8 @@
 }
 
 body{
+    min-height: 100vh;
+    position: relative;
     font-family: 'Bree Serif', serif;
     background-color: map-get($colores, "color-secundario" );
 }
