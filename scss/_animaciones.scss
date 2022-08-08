@@ -1,17 +1,3 @@
-.animacionLogo{
-    
-    &:hover{
-    transition: 2s;
-    transform: rotate(360deg);
-           }
-}
-.animacionFooter{
-    &:hover{
-    transition: 2s;
-    transform: rotateY(360deg);
-}
-}
-
 
 .contenedorCards{
     background-color: map-get($colores , "color-principal" );

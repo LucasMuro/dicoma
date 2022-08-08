@@ -32,14 +32,6 @@ body {
     flex-direction: column;
     color: #D3D3D3; }
 
-.animacionLogo:hover {
-  transition: 2s;
-  transform: rotate(360deg); }
-
-.animacionFooter:hover {
-  transition: 2s;
-  transform: rotateY(360deg); }
-
 .contenedorCards {
   background-color: #161A1D; }
 
