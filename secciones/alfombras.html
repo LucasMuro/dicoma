@@ -1,86 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
-  Alfombras originales para todas las carcas y modelos de automovil">
-    <meta name="keyword" content="repuestos, dicoma, citroen, alfombras,originales">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=PT+Mono&family=Patua+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/main.css">
-    <title>Alfombras| Dicoma repuestos</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripcion" content="Dicoma es una empresa dedicada a la venta de repuestos citroen y peugeot originales.
+        Alfombras originales para todas las carcas y modelos de automovil">
+        <meta name="keyword" content="repuestos, dicoma, citroen, alfombras,contacto">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/baaac1f0d1.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=PT+Mono&family=Patua+One&display=swap"
+            rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/main.css">
+        <title>Alfombras| Dicoma repuestos</title>
+    </head>
 <body>
-    <header class="encabezado headerFlex">
-        <img class="encabezado__logo" src="../imagenes/logmen.png" alt="logo barra navegacion">
-    </header>
-    <nav class="barraNavegacion">
-        <ul class="navFlex">
-            <li class="barraNavegacion__item"><a class="barraNavegacion__item__a" href="../index.html">Home</a></li>
-            <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                    href="./contacto.html">Contacto</a></li>
-            <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                    href="#">Alfombras</a></li>
-            <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                    href="./citroen.html">Citroen</a></li>
-            <li class="barraNavegacion__item"><a class="barraNavegacion__item__a"
-                    href="./peugeot.html">Peugeot</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="animacionLogo" src="../imagenes/logmen.png" alt="logo barra"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./citroen.html">Citroen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./peugeot.html">Peugeot</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Alfombras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
     <main>
         <h1>Alfombras originales todas las marcas</h1>
 
-        <form class="formContacto">
-            <div>
-                <label class="letraBlanca" for="marca">Marca:</label>
-                <input type="text" id="marca">
+        <div class="row">
+            <div class="col-3">
+                <label for="marca" class="form-label">Marca:</label>
+                <select id="marca" class="form-select">
+                    <option selected>Todo</option>
+                    <option>Fiat</option>
+                    <option>Peugeot</option>
+                    <option>Citroen</option>
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option>Renault</option>
+                    <option>Audi</option>
+                </select>
             </div>
-            <div>
-                <label class="letraBlanca" for="modelo">Modelo:</label>
-                <input type="text" id="modelo">
+            <div class="col-3">
+                <label for="modelo" class="form-label">Modelo:</label>
+                <select id="modelo" class="form-select">
+                    <option selected>Todo</option>
+                    <option>Fiat</option>
+                    <option>Peugeot</option>
+                    <option>Citroen</option>
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option>Renault</option>
+                    <option>Audi</option>
+                </select>
+            </div>
+            <div class="col-1">
+                
             </div>
 
-            <input type="button" value="Buscar">
-        </form>
+        </div>
     </main>
 
-    <footer class="footer">
-        <img class="footer__logo" src="../imagenes/logmen.png" alt="logo footer">
-        <div class="footer__contacto">
+    <footer class="container-fluid footer">
+        <div class="row">
+          <div class="col-lg-3">
+            <img class="footer__logo animacionFooter" src="../imagenes/logmen.png" alt="logo footer">
+          </div>
+          <div class="footer__contacto col-lg-6">
             <p>
-                <strong>Dirección:</strong> Riobamba 942, S2000ELT Rosario, Santa Fe
+              <strong>Dirección:</strong> Riobamba 942, S2000ELT Rosario, Santa Fe
             </p>
             <p>
-                <strong>Telefono:</strong> 0341 482-4092
+              <strong>Telefono:</strong> 0341 482-4092
             </p>
-        </div>
-        <ul class="footer__lista">
-            <li class="footer__item ">
+          </div>
+          <div class="col-lg-3">
+            <ul class="footer__lista">
+              <li class="footer__item ">
                 <a class="footer__item__a" href="https://www.facebook.com/" target="_blank">
-                    <i class="fa-brands fa-facebook-square fa-3x">
-
-                    </i>
+                  <i class="fa-brands fa-facebook-square fa-3x">
+    
+                  </i>
                 </a>
-            </li>
-            <li class="footer__item">
+              </li>
+              <li class="footer__item">
                 <a class="footer__item__a" href="https://www.instagram.com/" target="_blank">
-                    <i class="fa-brands fa-instagram-square fa-3x">
-
-                    </i>
+                  <i class="fa-brands fa-instagram-square fa-3x">
+    
+                  </i>
                 </a>
-            </li>
-            <li class="footer__item">
+              </li>
+              <li class="footer__item">
                 <a class="footer__item__a" href="https://www.whatsapp.com/" target="_blank">
-                    <i class="fa-brands fa-whatsapp-square fa-3x">
-
-                    </i>
+                  <i class="fa-brands fa-whatsapp-square fa-3x">
+    
+                  </i>
                 </a>
-            </li>
-        </ul>
-    </footer>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 </body>
 </html>

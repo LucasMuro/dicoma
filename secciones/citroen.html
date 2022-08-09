@@ -58,30 +58,49 @@
     <main>
         <h1>Repuestos Citroen originales</h1>
 
-        <form class="formContacto">
-            <div>
-                <label class="letraBlanca" for="marca">Marca:</label>
-                <input type="text" id="marca">
+        <div class="row">
+            <div class="col-3">
+                <label for="marca" class="form-label">Marca:</label>
+                <select id="marca" class="form-select">
+                    <option selected>Todo</option>
+                    <option>Fiat</option>
+                    <option>Peugeot</option>
+                    <option>Citroen</option>
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option>Renault</option>
+                    <option>Audi</option>
+                </select>
             </div>
-            <div>
-                <label class="letraBlanca" for="modelo">Modelo:</label>
-                <input type="text" id="modelo">
+            <div class="col-3">
+                <label for="modelo" class="form-label">Modelo:</label>
+                <select id="modelo" class="form-select">
+                    <option selected>Todo</option>
+                    <option>Fiat</option>
+                    <option>Peugeot</option>
+                    <option>Citroen</option>
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option>Renault</option>
+                    <option>Audi</option>
+                </select>
             </div>
-            <div>
-                <label class="letraBlanca" for="subGrupo">Sub grupo:</label>
-                <input type="text" id="subGrupo">
+            <div class="col-3">
+                <label for="subgrupo" class="form-label">SubGrupo:</label>
+                <select id="subgrupo" class="form-select">
+                    <option selected>Todo</option>
+                    <option>Fiat</option>
+                    <option>Peugeot</option>
+                    <option>Citroen</option>
+                    <option>Chevrolet</option>
+                    <option>Ford</option>
+                    <option>Renault</option>
+                    <option>Audi</option>
+                </select>
             </div>
+            <div class="col-1"></div>
 
-            <input type="button" value="Buscar">
-        </form>
-
-        <form class="formContacto">
-            <div>
-                <label class="letraBlanca" for="codigo">Codigo:</label>
-                <input type="text" id="codigo">
-            </div>
-            <input type="button" value="Buscar">
-        </form>
+        </div>
 
 
     </main>
